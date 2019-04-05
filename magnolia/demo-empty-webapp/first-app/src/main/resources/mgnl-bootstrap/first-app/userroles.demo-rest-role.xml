@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<demo-rest-role xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mgnl="http://www.magnolia.info/jcr/mgnl"
+            jcr:primaryType="mgnl:role"
+            jcr:uuid="feb7a52a-1704-41af-99d5-868af8c1357b"
+            title="Demo REST Role"
+            description="This role grants GET/POST permissions to all DemoEndpoint's REST APIs.">
+
+    <acl_uri jcr:primaryType="mgnl:contentNode">
+        <_x0030_ jcr:primaryType="mgnl:contentNode"
+                 path="/.rest/demo/v1*"
+                 permissions="63">
+        </_x0030_>
+    </acl_uri>
+    <acl_userroles jcr:primaryType="mgnl:contentNode">
+        <_x0030_ jcr:primaryType="mgnl:contentNode"
+                 path="/demo-rest-role"
+                 permissions="63">
+        </_x0030_>
+    </acl_userroles>
+</demo-rest-role>

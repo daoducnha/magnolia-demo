@@ -1,0 +1,2 @@
+templateScript: /appdemo/templates/components/dummy-component.ftl
+renderType: freemarker

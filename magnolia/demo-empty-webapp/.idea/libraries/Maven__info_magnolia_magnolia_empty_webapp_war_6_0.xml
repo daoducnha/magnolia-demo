@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: info.magnolia:magnolia-empty-webapp:war:6.0">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/info/magnolia/magnolia-empty-webapp/6.0/magnolia-empty-webapp-6.0.war!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/info/magnolia/magnolia-empty-webapp/6.0/magnolia-empty-webapp-6.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/info/magnolia/magnolia-empty-webapp/6.0/magnolia-empty-webapp-6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

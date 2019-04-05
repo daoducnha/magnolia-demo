@@ -1,0 +1,4 @@
+'rest-endpoints':
+  'demo':
+    'class': 'info.magnolia.rest.service.node.definition.ConfiguredNodeEndpointDefinition'
+    'implementationClass': 'com.ekino.app.rest.service.v1.DemoEndpoint'

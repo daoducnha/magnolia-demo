@@ -1,0 +1,13 @@
+datasource:
+  workspace: tourguides
+  namespaces:
+    mt: https://www.magnolia-travel.com/jcr/1.0/mt
+  autoCreate: true
+
+model:
+  nodeType: mt:tourGuide
+  properties:
+    - name: birthday
+      type: Date
+    - name: gender
+    - name: shortBio
