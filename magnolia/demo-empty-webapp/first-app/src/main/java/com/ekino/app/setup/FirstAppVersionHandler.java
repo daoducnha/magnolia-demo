@@ -23,7 +23,9 @@ public class FirstAppVersionHandler extends DefaultModuleVersionHandler {
     public FirstAppVersionHandler() {
         register(DeltaBuilder.update("1.0", "")
                 .addTask(new BootstrapSingleModuleResource("Bootstrap file userroles.demo-rest-role.xml", "", "userroles.demo-rest-role.xml"))
-                .addTask(new AddRoleToUserTask("Add role 'demo-rest-role' to user 'superuser'", "superuser", DEMO_REST_ROLE)));
+                .addTask(new AddRoleToUserTask("Add role 'demo-rest-role' to user 'superuser'", "superuser", DEMO_REST_ROLE))
+
+        );
     }
     @Override
     protected List<Task> getExtraInstallTasks(InstallContext installContext) {

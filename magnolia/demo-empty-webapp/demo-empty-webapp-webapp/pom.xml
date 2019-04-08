@@ -21,7 +21,7 @@
 
     <!-- option i - magnolia-empty-webapp -->
     <!-- Dependencies versions are already imported by parent pom. Requires "Option A" in the parent pom. -->
-    <!--
+
     <dependency>
       <groupId>info.magnolia</groupId>
       <artifactId>magnolia-empty-webapp</artifactId>
@@ -32,7 +32,6 @@
       <artifactId>magnolia-empty-webapp</artifactId>
       <type>pom</type>
     </dependency>
-    -->
 
     <dependency>
       <groupId>com.ekino.app</groupId>
@@ -43,16 +42,16 @@
     <!-- option ii - magnolia-community-webapp -->
     <!-- Dependencies versions are already imported by parent pom. Requires "Option A" in the parent pom. -->
 
-    <dependency>
-      <groupId>info.magnolia.bundle</groupId>
-      <artifactId>magnolia-community-webapp</artifactId>
-      <type>war</type>
-    </dependency>
-    <dependency>
-      <groupId>info.magnolia.bundle</groupId>
-      <artifactId>magnolia-community-webapp</artifactId>
-      <type>pom</type>
-    </dependency>
+    <!--<dependency>-->
+      <!--<groupId>info.magnolia.bundle</groupId>-->
+      <!--<artifactId>magnolia-community-webapp</artifactId>-->
+      <!--<type>war</type>-->
+    <!--</dependency>-->
+    <!--<dependency>-->
+      <!--<groupId>info.magnolia.bundle</groupId>-->
+      <!--<artifactId>magnolia-community-webapp</artifactId>-->
+      <!--<type>pom</type>-->
+    <!--</dependency>-->
 
 
 
@@ -86,7 +85,51 @@
       <type>pom</type>
     </dependency>
     -->
-
+    <dependency>
+      <groupId>info.magnolia.site</groupId>
+      <artifactId>magnolia-site</artifactId>
+      <!--<version>1.2.2</version>-->
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.site</groupId>
+      <artifactId>magnolia-site-app</artifactId>
+      <!--<version>1.2.2</version>-->
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.dam</groupId>
+      <artifactId>magnolia-dam-api</artifactId>
+      <!--<version>2.5</version>-->
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.dam</groupId>
+      <artifactId>magnolia-dam-app</artifactId>
+      <!--<version>2.5</version>-->
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.dam</groupId>
+      <artifactId>magnolia-dam-compatibility</artifactId>
+      <!--<version>2.5</version>-->
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.dam</groupId>
+      <artifactId>magnolia-dam-core</artifactId>
+      <!--<version>2.5</version>-->
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.dam</groupId>
+      <artifactId>magnolia-dam-jcr</artifactId>
+      <!--<version>2.5</version>-->
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.dam</groupId>
+      <artifactId>magnolia-dam-templating</artifactId>
+      <!--<version>2.5</version>-->
+    </dependency>
+    <dependency>
+      <groupId>info.magnolia.dam</groupId>
+      <artifactId>magnolia-dam-imaging</artifactId>
+      <!--<version>2.5</version>-->
+    </dependency>
   </dependencies>
 
   <build>
